@@ -1,1 +1,3 @@
 # BadSCCSConfigReporter
+
+initial commit
