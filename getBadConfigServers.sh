@@ -1,6 +1,6 @@
 #!/bin/bash
 CREDHUB_ADMIN_CLIENT_SECRET='HHrsSy2-zo7wGfh5h8waavpU8Bb4uJ64'
-RESTRICTED_FIELDS='["label","defaultLabel","passphrase","baseDir","tryMasterBranch","forcePull","knownHostFile","preferredAuthentications","ignoreLocalSshSettings","cloneSubmodules","deleteUntrackedBranches","repos"]'
+RESTRICTED_FIELDS='["defaultLabel","passphrase","baseDir","tryMasterBranch","forcePull","knownHostFile","preferredAuthentications","ignoreLocalSshSettings","cloneSubmodules","deleteUntrackedBranches","repos"]'
 OUTPUT_FILE="./output.csv"
 echo "ConfigServerSIGuid, AppSpaceGuid, AppSpaceName, BoundAppGuid, BoundAppName" > "$OUTPUT_FILE"
 
