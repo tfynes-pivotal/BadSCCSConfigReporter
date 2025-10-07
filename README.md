@@ -2,7 +2,7 @@
 
 ## Utility to be run from OpsManager VM
 
-Uses authenticated CredHub cli to find all spring cloud services stored configurations
+Uses authenticated CredHub cli to find all spring cloud services stored configurations. Then uses cf-cli to find which spaces have apps bound to these improperly configured config-servers.
 
 Tests each for the presence of invalid configuration keys for Tanzu SCCS 
 ["defaultLabel","passphrase","baseDir","tryMasterBranch","forcePull","knownHostFile","preferredAuthentications","ignoreLocalSshSettings","cloneSubmodules","deleteUntrackedBranches","repos"]
